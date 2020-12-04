@@ -1,0 +1,11 @@
+{
+    "dev": {
+        "ENV": "CHATAPP_DATABASE_URL"
+    },
+    "test": {
+        "ENV": "CHATAPP_DATABASE_TEST_URL" 
+    },
+    "prod": {
+        "ENV": "CHATAPP_DATABASE_URL"
+    }
+}

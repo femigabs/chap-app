@@ -1,0 +1,31 @@
+{
+  "name": "chap-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -r esm src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/femigabs/chap-app.git"
+  },
+  "author": "FEMI BABS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/femigabs/chap-app/issues"
+  },
+  "homepage": "https://github.com/femigabs/chap-app#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "helmet": "^4.2.0",
+    "mongoose": "^5.11.1",
+    "nodemon": "^2.0.6",
+    "path": "^0.12.7",
+    "util": "^0.12.3"
+  }
+}
