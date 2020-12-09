@@ -19,6 +19,10 @@ app.use((req, res, next) => {
     next();
 });
 
+app.get('/', (req, res) => {
+    res.send('Welcome to Chat-app');
+});
+
 router(app);
 
 // catch 404 and forward to error handler
