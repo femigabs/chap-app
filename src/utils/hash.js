@@ -3,7 +3,6 @@ import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 
 const secret = config.KEY;
-console.log('popo', secret);
 
 export const hashPassword = (password) => {
     const saltRounds = 10;
